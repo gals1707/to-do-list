@@ -1,0 +1,95 @@
+h1{
+    font-family: 'Srisakdi', cursive;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+html {
+    width: 100%;
+    height:100%;
+}
+body {
+    background-image: url("board.jpg");
+    width: 100%;
+    height:100%;
+}
+
+
+/* .form-group{
+    float: left;
+
+} */
+
+/* .container{
+    width:90%;
+    height: 80%;
+} */
+
+.ex1{
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    overflow: scroll;
+}
+#myNote{
+  /* background-repeat: none;*/
+  width:40px;
+  height:40px;
+}
+
+#mission{
+    border:none;
+    overflow:scroll; 
+}
+
+.duplicater{
+    margin:10px;
+    float: left;
+}
+
+
+input{
+    margin:10px;
+}
+
+.newDiv{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    float: left;
+    margin: 5px;
+    background: yellow;
+    overflow:auto;
+    padding: 10px;
+    transition:all 0.6s;
+}
+.removeClass{
+    display: none;
+
+}
+
+#context{
+    padding: 40px;
+}
+form{
+    margin:auto;
+
+}
+#context{
+    background-image: url("1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.newDiv i {
+    visibility:hidden;
+}
+.newDiv:hover i{
+    visibility:visible;
+
+}
+#btnClear{
+margin-bottom: 9px;
+}
+
+  
